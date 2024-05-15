@@ -24,29 +24,52 @@
 .banner-photo > img {
   height: 400px;
 }
-.self-promo{
-    text-align: justify;
+.self-promo {
+  text-align: justify;
 }
-.social{
-    margin: 20px 0;
-    padding: 0 0 0 30px;
-    display: flex;
-    align-items: center;
+.social {
+  margin: 20px 0;
+  padding: 0 0 0 30px;
+  display: flex;
+  align-items: center;
 }
-.social-icon{
-    font-size: 30px;
-    margin: 0 40px 0 0;
-    color: black;
+.social-icon {
+  font-size: 30px;
+  margin: 0 40px 0 0;
+  color: black;
+}
+/* card */
+.show-case {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.card-info {
+  width: 1000px;
+  margin: 40px 0;
+}
+.car-img {
+  width: 600px;
+  height: 400px;
 }
 
+.card-info-body>h3{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .card-info-body>p{
+    font-size: 16px;
+    text-align: justify;
+  }
+  .card-info-body>ul>li>h6{
+    font-size: 16px;
+  }
 
 /* custom responsive */
 @media only screen and (min-width: 600px) {
-    .self-promo{
-        width: 75%;
-    }
-    
+  .self-promo {
+    width: 75%;
   }
+}
 @media only screen and (max-width: 768px) {
   .header {
     max-width: 720px;
@@ -59,8 +82,27 @@
   .menu {
     padding-left: 200px;
   }
-  .social{
-    padding: 0
+  .social {
+    padding: 0;
+  }
+  .card-info {
+    width: 720px;
+    margin: 0 auto;
+  }
+  .car-img {
+    width: 400px;
+    height: 200px;
+  }
+  .card-info-body>h3{
+    font-size: 24px;
+    font-weight: 800;
+  }
+  .card-info-body>p{
+    font-size: 14px;
+    text-align: justify;
+  }
+  .card-info-body>ul>li>h6{
+    font-size: 14px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -84,7 +126,28 @@
   .banner-photo > img {
     height: 400px;
   }
-  .social{
+  .social {
     justify-content: center;
+  }
+  .card-info {
+    width: 360px;
+    margin: 0 auto;
+    flex-direction: column !important;
+  }
+  .card-info-body>h3{
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+  }
+  .card-info-body>p{
+    font-size: 12px;
+    text-align: justify;
+  }
+  .car-img {
+    width: 360px;
+    height: 200px;
+  }
+  .card-info-body>ul>li>h6{
+    font-size: 12px;
   }
 }
