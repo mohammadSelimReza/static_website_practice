@@ -52,18 +52,29 @@
   height: 400px;
 }
 
-.card-info-body>h3{
-    font-size: 24px;
-    font-weight: 700;
-  }
-  .card-info-body>p{
-    font-size: 16px;
-    text-align: justify;
-  }
-  .card-info-body>ul>li>h6{
-    font-size: 16px;
-  }
-
+.card-info-body > h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.card-info-body > p {
+  font-size: 16px;
+  text-align: justify;
+}
+.card-info-body > ul > li > h6 {
+  font-size: 16px;
+}
+.skills {
+  max-width: 1024px;
+  margin: 20px auto;
+}
+.skil{
+    padding-left: 20px;
+}
+.skil > p {
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
 /* custom responsive */
 @media only screen and (min-width: 600px) {
   .self-promo {
@@ -87,22 +98,27 @@
   }
   .card-info {
     width: 720px;
-    margin: 0 auto;
+    margin: 40px auto;
+    padding: 10px;
   }
   .car-img {
-    width: 400px;
+    width: 380px;
     height: 200px;
   }
-  .card-info-body>h3{
+  .card-info-body > h3 {
     font-size: 24px;
     font-weight: 800;
   }
-  .card-info-body>p{
-    font-size: 14px;
+  .card-info-body > p {
+    font-size: 12px;
     text-align: justify;
   }
-  .card-info-body>ul>li>h6{
+  .card-info-body > ul > li > h6 {
     font-size: 14px;
+  }
+  .skills {
+    max-width: 720px;
+    margin: 20px auto;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -131,15 +147,15 @@
   }
   .card-info {
     width: 360px;
-    margin: 0 auto;
+    margin: 40px auto;
     flex-direction: column !important;
   }
-  .card-info-body>h3{
+  .card-info-body > h3 {
     font-size: 18px;
     font-weight: 800;
     text-align: center;
   }
-  .card-info-body>p{
+  .card-info-body > p {
     font-size: 12px;
     text-align: justify;
   }
@@ -147,7 +163,13 @@
     width: 360px;
     height: 200px;
   }
-  .card-info-body>ul>li>h6{
+  .card-info-body > ul > li > h6 {
+    font-size: 12px;
+  }
+  .skills{
+    flex-direction: column-reverse !important;
+  }
+  .skil>p{
     font-size: 12px;
   }
 }
