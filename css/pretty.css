@@ -67,13 +67,36 @@
   max-width: 1024px;
   margin: 20px auto;
 }
-.skil{
-    padding-left: 20px;
+.skil {
+  padding-left: 20px;
 }
 .skil > p {
   margin: 0 10px;
   padding: 5px 10px;
   border-radius: 10px;
+}
+.enput-box {
+  width: 300px;
+  height: 40px;
+  padding: 5px 10px;
+}
+.enput-box2 {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+}
+.contact > form {
+  width: 500px;
+  margin: 20px auto;
+}
+button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: tomato;
+  color: white;
+}
+footer {
+  padding: 40px 0;
 }
 /* custom responsive */
 @media only screen and (min-width: 600px) {
@@ -119,6 +142,20 @@
   .skills {
     max-width: 720px;
     margin: 20px auto;
+  }
+  .contact > form {
+    width: 550px;
+    margin: 20px auto;
+  }
+  .enput-box {
+    width: 250px;
+    height: 40px;
+    padding: 5px 10px;
+  }
+  .enput-box2 {
+    width: 250px;
+    height: 150px;
+    padding: 10px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -166,10 +203,24 @@
   .card-info-body > ul > li > h6 {
     font-size: 12px;
   }
-  .skills{
+  .skills {
     flex-direction: column-reverse !important;
   }
-  .skil>p{
+  .skil > p {
     font-size: 12px;
+  }
+  .contact > form {
+    width: 300px;
+    margin: 20px auto;
+  }
+  .enput-box {
+    width: 250px;
+    height: 30px;
+    padding: 5px 10px;
+  }
+  .enput-box2 {
+    width: 250px;
+    height: 150px;
+    padding: 10px;
   }
 }
